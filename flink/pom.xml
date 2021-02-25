@@ -55,6 +55,12 @@
       <artifactId>camel-test</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-java</artifactId>
+      <version>1.11.2</version>
+    </dependency>
   </dependencies>
 
   <build>
