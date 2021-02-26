@@ -25,39 +25,39 @@ Available kernels:
 
 - 执行代码
 
-  ![](./images/output.png)
+  ![](images/output.png)
 
 - 自动补全`TAB`
 
-  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/autocompletion.png](./images/autocompletion.png)
+  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/autocompletion.png](images/autocompletion.png)
 
 - 代码提示 (在jupyter notebok中按`Shift-TAB` ).
 
-  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/code-inspection.png](./images/code-inspection.png)
+  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/code-inspection.png](images/code-inspection.png)
 
 - 颜色标记, 展示错误信息
 
-  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/compilation-error.png](./images/compilation-error.png)
+  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/compilation-error.png](images/compilation-error.png)
 
-  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/incomplete-src-error.png](./images/incomplete-src-error.png)
+  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/incomplete-src-error.png](images/incomplete-src-error.png)
 
-  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/runtime-error.png](./images/runtime-error.png)
+  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/runtime-error.png](images/runtime-error.png)
 
 - 运行时添加Maven依赖 (See also [magics.md](https://github.com/SpencerPark/IJava/blob/master/docs/magics.md) and [Try the example](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab/tree/home/jovyan/3rdPartyDependency.ipynb) ).
 
-  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/maven-pom-dep.png](./images/maven-pom-dep.png)
+  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/maven-pom-dep.png](images/maven-pom-dep.png)
 
 - 丰富的输出形式 (See also [display.md](https://github.com/SpencerPark/IJava/blob/master/docs/display.md) and [maven magic](https://github.com/SpencerPark/IJava/blob/master/docs/magics.md#addmavendependencies)). Chart library in the demo photo is [XChart](https://github.com/knowm/XChart) with the sample code taken from their README. ([Try the example](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab/tree/home/jovyan/3rdPartyDependency.ipynb) )
 
-  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/display-img.png](./images/display-img.png)
+  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/display-img.png](images/display-img.png)
 
 - `eval` 方法. (See also [kernel.md](https://github.com/SpencerPark/IJava/blob/master/docs/kernel.md)) **Note: the signature is `Object eval(String) throws Exception`.** This evaluates the expression (a cell) in the user scope and returns the actual evaluation result instead of a serialized one.
 
-  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/eval.png](./images/eval.png)
+  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/eval.png](images/eval.png)
 
 - 计算运行时间
 
-  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/timeout.png](./images/timeout.png)
+  ![https://github.com/SpencerPark/IJava/raw/master/docs/img/timeout.png](images/timeout.png)
 
 ## java版本≥9
 
