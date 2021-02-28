@@ -14,7 +14,6 @@ def elu(x: np.ndarray, alpha: float) -> np.ndarray:
     return np.array([i if i > 0 else alpha * (np.exp(i) - 1) for i in x])
 
 
-@deca
 def leaky_relu(x: np.ndarray) -> np.ndarray:
     """$ \frac 1 2$"""
     return np.array([max(0.01 * i, i) for i in x])

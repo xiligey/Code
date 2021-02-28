@@ -1,6 +1,6 @@
 package org.chenxilin.basic
 
-object HelloWorld {
+object ScalaHelloWorld {
   def main(args: Array[String]): Unit = {
     println("Hello World")
   }

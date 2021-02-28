@@ -1,9 +1,9 @@
-package org.chenxilin.basic.datastructure;
+package org.chenxilin.basic.数据结构;
 
 /**
  * @author chenxilin
  */
-public class JavaTuple {
+public class JavaString {
     public static void main(String[] args) {
 
     }

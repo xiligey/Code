@@ -1,4 +1,4 @@
-package org.chenxilin.basic.datastructure
+package org.chenxilin.basic.数据结构
 
 /** Scala数组
  *

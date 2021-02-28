@@ -1,4 +1,4 @@
-package org.chenxilin.basic.database;
+package org.chenxilin.basic.数据库;
 
 import java.sql.*;
 import java.util.Properties;
