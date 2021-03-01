@@ -1,0 +1,17 @@
+
+资源参数调优：
+num-executors: 用于设置Spark作业总共要用多少个Executor进程来执行c
+executor-memory: 每个Executor进程的内存
+num-executors乘以executor-memory，是不能超过队列的最大内存量的
+executor-cores: 每个Executor进程的CPU core数量
+num-executors * executor-cores不要超过队列总CPU core
+driver-memory: 用于设置Driver进程的内存
+spark.default.parallelism: 设置每个stage的默认task数量
+该参数为num-executors * executor-cores的2~3倍较为合适
+spark.storage.memoryFraction: 
+
+
+hdfs
+/data/origin_data/c_log
+/data/origin_data/s_log
+...
