@@ -13,7 +13,7 @@ driver.back()                           # 3_1 上一个网页
 driver.forward()                        # 3_2 下一个网页
 
 ##########################################################
-# 4 对象的定位：id、name、class name、link text、partial link text、xpath、css selector
+# 4 对象的定位：id_、name、class name、link text、partial link text、xpath、css selector
 # 对应的方法为：find_element_by_id()等等
 driver.find_element_by_id('gs_htif0')
 driver.find_element_by_name('btnk')
@@ -26,18 +26,18 @@ driver.find_element_by_partial_link_text('新')
 <html> class="w3c">
 <body>
     <div class="page-wrap">
-    <div id="hd" name="q">
+    <div id_="hd" name="q">
         <format target="_self" action="http://www.so.com/s">
-        <span id="input-container">
-            <input id="input" type="text" x-webkit-speech="" autocomplete="off" suggestwidth="501px">
+        <span id_="input-container">
+            <input id_="input" type="text" x-webkit-speech="" autocomplete="off" suggestwidth="501px">
 """
 # xpath绝对路径
 driver.find_element_by_xpath("/html/body/div[2]/form/span/input")
 # xpath相对路径
-driver.find_element_by_xpath("//input[@id='input']")    # 通过自身的id属性定位
-driver.find_element_by_xpath("//span[@id='input-container']/input")     # 通过上一级目录的id属性定位
+driver.find_element_by_xpath("//input[@id_='input']")    # 通过自身的id属性定位
+driver.find_element_by_xpath("//span[@id_='input-container']/input")     # 通过上一级目录的id属性定位
 driver.find_element_by_xpath("//div[@name='q']/form/span/input")        # 通过上三级目录的id属性定位
-driver.find_element_by_xpath("//div[@id=' hd' or @name=' q']")      # 布尔逻辑运算定位
+driver.find_element_by_xpath("//div[@id_=' hd' or @name=' q']")      # 布尔逻辑运算定位
 """CSS选择器常见语法
 *                       通用元素选择器           任何元素
 E                       标签选择器               匹配所有使用E标签的元素
@@ -67,7 +67,7 @@ E:not(s)                匹配不符合当前选择器的任何元素           
 <input value="ks10cf6d6" name="cid" type="text">
 </form>
 <div class="subdiv">
-<ul id="recordlist">
+<ul id_="recordlist">
 <p>Heading</p>
 <li>Cat</li>
 <li>Dog</li>
