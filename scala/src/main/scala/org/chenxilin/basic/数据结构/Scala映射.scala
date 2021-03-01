@@ -68,7 +68,7 @@ object Scala映射 {
 
     // 映射的map操作
     val name2 = scala.collection.immutable.SortedMap("A" -> "1", "D" -> "2", "C" -> "3")
-    name2.map { case (key, value) => println(key, value) }
+    name2.map { case (key, value) => (key, value + "suffix") }
 
     // 合并两个map
     var a = Map(1 -> 2, 2 -> 3, 3 -> 4)
