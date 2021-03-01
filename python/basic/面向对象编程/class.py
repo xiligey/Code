@@ -4,7 +4,7 @@ class People(object):
 
 
 class Student(object):
-    # __slots__ = ('id', 'name', 'age', 'love')
+    # __slots__ = ('id_', 'name', 'age', 'love')
     # 创建一个class实例后可以给该实例添加class中没有的属性和方法,
     # __slot__的作用是限制类可以添加的属性和方法,且仅对当前类有效,对子类无效
     def __str__(self):
