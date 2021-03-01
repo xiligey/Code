@@ -1,4 +1,4 @@
-package org.chenxilin.basic
+package org.chenxilin.basic.正则表达式
 
 object ScalaRE {
   def main(args: Array[String]): Unit = {
@@ -14,4 +14,3 @@ object ScalaRE {
     }
   }
 }
-
