@@ -9,8 +9,6 @@
   <packaging>pom</packaging>
   <version>0.1</version>
   <modules>
-    <module>flink</module>
-    <module>spark</module>
     <module>scala</module>
     <module>java</module>
   </modules>
